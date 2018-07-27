@@ -12,7 +12,7 @@ public class ProgramP {
 		
 		System.out.print("How many rooms will be rented? ");
 		int totrooms = sc.nextInt();
-		Pensao[] vect = new Pensao[11];
+		Pensao[] vect = new Pensao[10];
 		
 		for (int i = 1; i <= totrooms; i++) {
 			System.out.println();
